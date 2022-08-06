@@ -13,12 +13,12 @@ export default function PageDetailDescription({ data }) {
               return (
                 <div
                   key={`feature-${index}`}
-                  className="col-3"
+                  className="col-4 col-lg-3 text-center"
                   style={{ marginBottom: 20 }}
                 >
                   <img
                     width="38"
-                    className="d-block mb-2"
+                    className="d-block mb-2 mr-auto ml-auto"
                     src={feature.imageUrl}
                     alt={feature.name}
                   />{" "}

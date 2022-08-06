@@ -1,9 +1,12 @@
 import {
+  Activity,
   BookingForm,
   FeaturedImage,
+  Footer,
   Header,
   PageDetailDescription,
   PageDetailTitle,
+  Testimony,
 } from "parts";
 import React, { Component } from "react";
 import itemDetails from "json/itemDetails.json";
@@ -36,6 +39,9 @@ export default class DetailsPage extends Component {
             </div>
           </div>
         </section>
+        <Activity data={itemDetails.activities} />
+        <Testimony data={itemDetails.testimonial} />
+        <Footer />
       </>
     );
   }

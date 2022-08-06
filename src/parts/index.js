@@ -9,6 +9,7 @@ import PageDetailTitle from "./PageDetailTitle";
 import FeaturedImage from "./FeaturedImage";
 import PageDetailDescription from "./PageDetailDescription";
 import BookingForm from "./BookingForm";
+import Activity from "./Activity";
 
 export {
   Header,
@@ -22,4 +23,5 @@ export {
   FeaturedImage,
   PageDetailDescription,
   BookingForm,
+  Activity,
 };

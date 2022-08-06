@@ -4,6 +4,7 @@ import Star from "elements/Star";
 import React from "react";
 
 export default function Testimony({ data }) {
+  console.log("Data:", data);
   return (
     <section className="container">
       <div className="row align-items-center">

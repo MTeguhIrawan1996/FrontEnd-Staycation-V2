@@ -78,65 +78,29 @@
       "_id": "asd1293uasdads1",
       "name": "Kebun Park",
       "type": "Nature",
-      "imageUrl": "/images/categoryItem1.png"
+      "itemId": "asd1293uasdads1",
+      "imageUrl": "/images/treasure-1.jpg"
     },
     {
       "_id": "asd1293uasdads1",
       "name": "Water land",
       "type": "Pool",
-      "imageUrl": "/images/categoryItem2.png"
+      "itemId": "asd1293uasdads1",
+      "imageUrl": "/images/treasure-2.jpg"
     },
     {
       "_id": "asd1293uasdads1",
       "name": "Kebun Park",
       "type": "Nature",
-      "imageUrl": "/images/categoryItem3.png"
+      "itemId": "asd1293uasdads1",
+      "imageUrl": "/images/treasure-3.jpg"
     },
     {
       "_id": "asd1293uasdads1",
       "name": "Water land",
       "type": "Pool",
-      "imageUrl": "/images/categoryItem4.png"
-    }
-  ],
-  "categories": [
-    {
-      "_id": "asd1293uasdads1",
-      "name": "House with beauty backyard",
-      "items": [
-        {
-          "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/treasure-1.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/treasure-2.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/treasure-3.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": true
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/treasure-4.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        }
-      ]
+      "itemId": "asd1293uasdads1",
+      "imageUrl": "/images/treasure-4.jpg"
     }
   ],
   "testimonial": {

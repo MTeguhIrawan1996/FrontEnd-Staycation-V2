@@ -124,9 +124,9 @@ header {
   .img-wrapper {
     height: 100%;
     margin-bottom: 0;
-    border-radius: 0.9375rem;
+    // border-radius: 0.9375rem;
     overflow: hidden;
-    // border-radius: 0 0 0 0px;
+    border-radius: 15px 15px 15px 15px;
   }
 
   .meta-wrapper {
