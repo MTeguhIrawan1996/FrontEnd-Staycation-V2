@@ -7,6 +7,7 @@ import MostPicked from "./MostPicked";
 import Testimony from "./Testimony";
 import PageDetailTitle from "./PageDetailTitle";
 import FeaturedImage from "./FeaturedImage";
+import PageDetailDescription from "./PageDetailDescription";
 
 export {
   Header,
@@ -18,4 +19,5 @@ export {
   Testimony,
   PageDetailTitle,
   FeaturedImage,
+  PageDetailDescription,
 };
