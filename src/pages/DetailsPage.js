@@ -1,4 +1,5 @@
 import {
+  BookingForm,
   FeaturedImage,
   Header,
   PageDetailDescription,
@@ -30,7 +31,9 @@ export default class DetailsPage extends Component {
             <div className="col-12 col-lg-7 pr-0 pr-lg-5 mb-5 mb-lg-0">
               <PageDetailDescription data={itemDetails} />
             </div>
-            <div className="col-12 col-lg-5">Booking from</div>
+            <div className="col-12 col-lg-5">
+              <BookingForm itemDetails={itemDetails}></BookingForm>
+            </div>
           </div>
         </section>
       </>

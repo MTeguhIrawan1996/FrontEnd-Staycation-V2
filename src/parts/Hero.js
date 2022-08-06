@@ -43,7 +43,7 @@ export default function Hero(props) {
               />
               <h6 className="mt-3">
                 {numberFromat(props.data.travelers)}{" "}
-                <span className="text-gray-500 font-wight-light">
+                <span className="text-gray-500 font-weight-light">
                   Travelers
                 </span>
               </h6>
@@ -57,7 +57,7 @@ export default function Hero(props) {
               />
               <h6 className="mt-3">
                 {numberFromat(props.data.treasures)}{" "}
-                <span className="text-gray-500 font-wight-light">
+                <span className="text-gray-500 font-weight-light">
                   Treasures
                 </span>
               </h6>
@@ -71,7 +71,7 @@ export default function Hero(props) {
               />
               <h6 className="mt-3">
                 {numberFromat(props.data.cities)}{" "}
-                <span className="text-gray-500 font-wight-light">Cities</span>
+                <span className="text-gray-500 font-weight-light">Cities</span>
               </h6>
             </div>
           </div>
