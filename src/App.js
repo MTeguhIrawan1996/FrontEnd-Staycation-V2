@@ -3,7 +3,7 @@ import "assets/scss/style.scss";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { DetailsPage, Example, LandingPage } from "pages";
+import { DetailsPage, Example, LandingPage, Checkout } from "pages";
 
 function App() {
   useEffect(() => {
@@ -14,6 +14,7 @@ function App() {
       <Router>
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/properties/:id" component={DetailsPage} />
+        <Route exact path="/checkout" component={Checkout} />
         <Route exact path="/example" component={Example} />
       </Router>
     </div>

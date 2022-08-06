@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Activity(props) {
-  console.log("Props:", props);
   return (
     <section className="container">
       <h4 className="mb-3 text-primary" data-aos="fade-up" data-aos-delay="100">
