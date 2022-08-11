@@ -43,7 +43,6 @@ export default function Testimony({ data }) {
           <span className="text-gray-500">
             {data.familyName}, {data.familyOccupation}
           </span>
-
           <div>
             <Button
               type="link"

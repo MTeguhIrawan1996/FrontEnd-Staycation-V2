@@ -142,6 +142,7 @@ fieldset:disabled a.btn {
 .btn-block {
   display: block;
   width: 100%;
+  padding: 10px;
 
   // Vertically space out multiple block buttons
   + .btn-block {

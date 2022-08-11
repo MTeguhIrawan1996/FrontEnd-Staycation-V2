@@ -10,6 +10,9 @@ import FeaturedImage from "./FeaturedImage";
 import PageDetailDescription from "./PageDetailDescription";
 import BookingForm from "./BookingForm";
 import Activity from "./Activity";
+import BookingInformation from "./Checkout/BookingInformation";
+import Payment from "./Checkout/Payment";
+import Completed from "./Checkout/Completed";
 
 export {
   Header,
@@ -24,4 +27,7 @@ export {
   PageDetailDescription,
   BookingForm,
   Activity,
+  BookingInformation,
+  Payment,
+  Completed,
 };
