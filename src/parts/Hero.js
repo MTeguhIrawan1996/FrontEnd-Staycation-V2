@@ -39,10 +39,10 @@ export default function Hero(props) {
                 width="36"
                 height="36"
                 src={IcTraveler}
-                alt={`${props.data.travelers} Traveler`}
+                alt={`${props.data.traveler} Traveler`}
               />
               <h6 className="mt-3">
-                {numberFromat(props.data.travelers)}{" "}
+                {numberFromat(props.data.traveler)}{" "}
                 <span className="text-gray-500 font-weight-light">
                   Travelers
                 </span>
@@ -53,10 +53,10 @@ export default function Hero(props) {
                 width="36"
                 height="36"
                 src={IcTreasure}
-                alt={`${props.data.treasures} Treasures`}
+                alt={`${props.data.treasure} Treasures`}
               />
               <h6 className="mt-3">
-                {numberFromat(props.data.treasures)}{" "}
+                {numberFromat(props.data.treasure)}{" "}
                 <span className="text-gray-500 font-weight-light">
                   Treasures
                 </span>
@@ -67,10 +67,10 @@ export default function Hero(props) {
                 width="36"
                 height="36"
                 src={IcCities}
-                alt={`${props.data.cities} Cities`}
+                alt={`${props.data.city} Cities`}
               />
               <h6 className="mt-3">
-                {numberFromat(props.data.cities)}{" "}
+                {numberFromat(props.data.city)}{" "}
                 <span className="text-gray-500 font-weight-light">Cities</span>
               </h6>
             </div>

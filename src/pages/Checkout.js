@@ -1,5 +1,6 @@
 import { BookingInformation, Completed, Header, Payment } from "parts";
 import React, { Component } from "react";
+import { connect } from "react-redux";
 import itemDetails from "json/itemDetails.json";
 import Stepper, {
   Controller,
@@ -9,7 +10,7 @@ import Stepper, {
 } from "elements/Stepper";
 import Button from "elements/Button";
 
-export default class Checkout extends Component {
+class Checkout extends Component {
   state = {
     data: {
       firstName: "",
@@ -33,7 +34,7 @@ export default class Checkout extends Component {
 
   componentDidMount() {
     window.scroll(0, 0);
-    // document.title = "Staycation | Checkout";
+    document.title = "Staycation | Checkout";
   }
 
   _Submit = (nextStep) => {
@@ -61,9 +62,32 @@ export default class Checkout extends Component {
 
   render() {
     const { data } = this.state;
-    const checkout = {
-      duration: 3,
-    };
+    const { checkout } = this.props;
+    if (!checkout)
+      return (
+        <div className="container">
+          <div
+            className="row align-items-center justify-content-center text-center"
+            style={{ height: "100vh" }}
+          >
+            <div className="col-3">
+              Pilih kamar dulu..!!!
+              <div>
+                <Button
+                  className="btn mt-5"
+                  type="button"
+                  onClick={() => this.props.history.goBack()}
+                  isPrimary
+                  isBlock
+                >
+                  Back
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+
     const steps = {
       bookingInformation: {
         title: "Booking Information",
@@ -187,3 +211,10 @@ export default class Checkout extends Component {
     );
   }
 }
+
+const mapStateToProps = (state) => ({
+  checkout: state.checkout,
+  page: state.page,
+});
+
+export default connect(mapStateToProps)(Checkout);
