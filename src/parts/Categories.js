@@ -24,7 +24,6 @@ export default function Categories({ data }) {
             </div>
           ) : (
             category.itemId.map((item, index2) => {
-              console.log(item);
               return (
                 <div
                   className="item column-3 row-1 column-sm-6 row-sm-1"
